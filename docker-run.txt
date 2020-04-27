@@ -1,0 +1,1 @@
+docker run --name oradb-xe-11.2 -p 1521:1521 -p 5500:5500 -e ORACLE_PWD=root3358 --shm-size="2g" -d oracle/database:11.2.0.2-xe
